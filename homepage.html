@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GearCraftWorks | Home</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <header>
+        <h1>GearCraftWorks</h1>
+    </header>
+    <nav>
+        <a href="homepage.html" class="button">Home</a>
+        <a href="customize.html" class="button">Customize</a>
+        <a href="store.html" class="button">Store</a>
+        <a href="contact.html" class="button">Contact</a>
+        <a href="aboutus.html" class="button">About Us</a>
+        <a href="index.html" class="button">Logout</a>
+    </nav>
+    <section class="welcome">
+        <h1>Welcome to GearCraftWorks</h1>
+        <p>At GearCraftWorks, we don't just sell clothes; we craft experiences. Dive into a world where fashion meets function, and style knows no bounds.</p>
+        <p>From jerseys that scream team spirit to pants that redefine comfort, and t-shirts that speak your language, we've got it all.</p>
+        <p>Join the GearCraftWorks family today and gear up for a fashion revolution like never before!</p>
+    </section>
+    <section>
+        <h1>Customize your own Design!</h1>
+        <p>Create your own style of T-Shirts, Pants, and Jerseys!</p>
+        <a href="customize.html" class="customizenow">
+            <span class="button-text">Customize Now!</span>
+        </a>
+    </section>
+    <section>
+        <h2>About the Website</h2>
+        <p>We are providing any personalized sports wear that will suit for your teams!! Best quality!</p>
+    </section>
+    <section>
+        <h1>Check out our Facebook Page!</h1>
+        <a href="https://www.facebook.com/worksteamwear" target="_blank" class="facebook">Facebook</a>
+        <button onclick="openModal()">This is a test Button</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <h1>Strike a pose, there's nothing to it.</h1>
+                <button onclick="closeModal()">Close</button>
+            </div>
+        </div>
+    </section>
+    <script>
+        var modal = document.getElementById("myModal");
+        function openModal() {
+            modal.style.display = "block";
+        }
+        function closeModal() {
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+</html>
